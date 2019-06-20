@@ -139,7 +139,6 @@ public class GuessTheMovie {
 
     public static void main (String[] args) throws Exception{
         GuessTheMovie movie =  new GuessTheMovie();
-        // accessed in a static way (not through object):
         movie.chooseMovie();
         movie.searchLetter();
     }
